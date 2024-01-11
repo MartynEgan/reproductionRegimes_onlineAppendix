@@ -6,7 +6,7 @@
 library("haven") 
 library("dplyr")
 
-# Load data (note: must be acquired from GESIS website)
+# Load data (note: data must be acquired from GESIS website)
 ZA7600 <- read_spss("data/ZA7600_v3-0-0.sav")
 
 # Transform labels into factors for all other variables
